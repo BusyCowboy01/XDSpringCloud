@@ -1,0 +1,15 @@
+
+#服务的端口号
+server:
+  port: 9002
+
+#服务名称
+spring:
+  application:
+    name: config-server
+
+#指定注册中心地址
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9003/eureka/
